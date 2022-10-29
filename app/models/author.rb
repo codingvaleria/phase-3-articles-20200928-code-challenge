@@ -25,4 +25,5 @@ class Author
     magazines.map{|magazine|magazine.category}.uniq
   end
 
+ 
 end
