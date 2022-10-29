@@ -1,5 +1,6 @@
 class Author
-  attr_accessor :name
+  #set name not to be changed
+  attr_reader :name
 
 
   def initialize(name)
