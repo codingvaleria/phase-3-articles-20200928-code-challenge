@@ -16,7 +16,6 @@ class Magazine
   def contributors
     #filter articles that match article.magazine.name to name of magazine instance we're checking
     #map the articles.author.name get uniq     
-
     Article.all.filter{|article|article.magazine.name==@name}
     .map{|article|article.author}.uniq
   end
