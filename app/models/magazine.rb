@@ -7,17 +7,8 @@ class Magazine
     @category = category
     # initalizing class variable all
     @@all << self
-
   end
-
-  def name
-    # @name
-  end
-
-  def category
-    # @category
-  end
-
+# return an array of all magazine instances
   def self.all
     @@all
   end

@@ -9,12 +9,9 @@ class Article
         @title = title
         @@all << self
     end
-
+#return an array of all Article instances
     def self.all
         @@all
     end
-
-
-
 
 end
