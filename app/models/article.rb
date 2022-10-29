@@ -1,6 +1,6 @@
 class Article
 #set reader for variables
-    attr_reader :author, :magazine, :title
+    attr_reader :magazine, :title
     @@all = []
     def initialize(author, magazine, title)
         #intialize variables
@@ -13,5 +13,10 @@ class Article
     def self.all
         @@all
     end
+
+    def author
+        @author.name
+    end
+
 
 end
